@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    padding: 20px;
+    font-size: 13px !important;
+    font-family: 'Roboto', sans-serif;
+}
+.lanscape-mode-right {
+    position: absolute !important;
+}
+
+.lanscape-mode-right ul::before {
+    content: '';
+    width: 1px;
+    height: 100% !important; 
+}
